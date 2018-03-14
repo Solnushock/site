@@ -1,87 +1,22 @@
 {
-    "xData": [1,2,3,4,5,6,7,8,9,10,11],
-   {
+    "xData": [1,2,3,4,5,6,7,8,9,10,11], 
+    "datasets": [{
+        "name": "Speed",
+        "data": [50, 70, 105, 110, 145,149, 170, 145, 120, 110, 50],
+        "unit": "km/h",
+        "type": "line",
+        "valueDecimals": 1
+    }, {
         "name": "Elevation",
-        "data": [1000, 1500, 2000, 2500, 5000, 5600,3000, 2500, 2000, 1900, 1700 ],
-    
+        "data": [50, 70, 105, 110, 145,149, 170, 145, 120, 110, 50],
+        "unit": "m",
         "type": "area",
         "valueDecimals": 0
-    }, 
-{
-      
-       name: 'Импортированы из CSV файла в Личном кабинете',
-        data: [0, 0, 50, 0, 0, 0, 0, 0, 0,0,0],
-        color: '#FF821A',
-        
-        pointStart: Date.UTC(2018, 0, 1),
-        pointInterval: 7*24 * 3600 * 1000 // one week
-        
-    },
-    {
-        name: 'Добавлены в базу подписчиков по API',
-        data: [0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0],
-        color: '#FF25A2',
-        
-        pointStart: Date.UTC(2018, 0, 1),
-        pointInterval: 7*24 * 3600 * 1000 // one week  
-    },
-    
-    {
-        name: 'Добавлены с помощью трекинг-кода на веб-сайте',
-        data: [50, 70, 105, 110, 145,149, 170, 145, 120, 110, 50],
-        color: '#7CB5EC',
-        
-        pointStart: Date.UTC(2018, 0, 1),
-        pointInterval: 7*24 * 3600 * 1000 // one week
-      
-        
-    }, 
-    {
-        name: 'Удалены импортом CSV-файла в Личном кабинете',
-        data: [0, 0, 0, 0, 0, 0, 0, 0, -50, 0, 0],
-        color: '#FF821A',
-       
-        pointStart: Date.UTC(2018, 0, 1),
-        pointInterval: 7*24 * 3600 * 1000 // one week
-      
-        
-    },
-    {
-        name: 'Удалены по API',
-        data: [0, -70, 0, -20, 0, 0, 0, 0, 0, 0, 0],
-        color: '#FF25A2',
-        
-        pointStart: Date.UTC(2018, 0, 1),
-        pointInterval: 7*24 * 3600 * 1000 // one week
-      
-        
-    },
-    {
-        name: 'Жалобы на спам',
-        data: [0, 0, 0, 0, 0, -20, 0, 0, 0, -2, 0],
-        color: '#ECEC31',
-       
-        pointStart: Date.UTC(2018, 0, 1),
-        pointInterval: 7*24 * 3600 * 1000 // one week
-    },
-    {
-        name: 'Невалидные адреса (hardbounce)',
-        data: [0, 0, -15, 0, 0, 0, 0, 0, 0, 0, 0],
-        color: '#EC2424',
-        
-        pointStart: Date.UTC(2018, 0, 1),
-        pointInterval: 7*24 * 3600 * 1000 // one week
-    }, 
-    {
-        name: 'Отписались по ссылке в письме',
-        data: [-15, -40, -20, -80, -50, -40, -20, -25, 0, -24, -75],
-        color: '#7F7F7F',
-        
-        pointStart: Date.UTC(2018, 0, 1),
-        pointInterval: 7*24 * 3600 * 1000 // one week
-    }
-
-
-
-]
+    }, {
+        "name": "Heart rate",
+        "data": [50, 70, 105, 110, 145,149, 170, 145, 120, 110, 50],
+        "unit": "bpm",
+        "type": "area",
+        "valueDecimals": 0
+    }]
 }
