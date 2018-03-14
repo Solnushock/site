@@ -10,13 +10,7 @@
         "name": "Elevation",
         "data": [50, 70, 105, 110, 145,149, 170, 145, 120, 110, 50],
         "unit": "m",
-        "type": "area",
-        "valueDecimals": 0
-    }, {
-        "name": "Heart rate",
-        "data": [50, 70, 105, 110, 145,149, 170, 145, 120, 110, 50],
-        "unit": "bpm",
-        "type": "area",
+        "type": "column",
         "valueDecimals": 0
     }]
 }
